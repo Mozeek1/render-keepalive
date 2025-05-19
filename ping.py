@@ -7,3 +7,4 @@ try:
     print(f"Pinged {URL} with status: {response.status_code}")
 except Exception as e:
     print(f"Failed to ping: {e}")
+
